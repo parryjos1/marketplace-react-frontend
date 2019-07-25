@@ -5,6 +5,13 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Routes from './Routes';
 
+import axios from 'axios';
+
+// check localStorage, load auth token into axios default header
+const authToken = localStorage.getItem('authToken');
+if( authToken ){
+  axios.defaults.headers.common['Authorization'] = `Bearer ${authToken}`;
+}
 
 ReactDOM.render(Routes, document.getElementById('root'));
 

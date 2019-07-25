@@ -45,6 +45,17 @@ class Signup extends Component {
   render(){
     return(
       <div>
+
+        <nav>
+          <ul className="nav-list">
+            <li className="nav-item-left"><div className="nav-item"><Link to="/">Home</Link></div></li>
+            <li className="nav-item-right"><div className="nav-item">Cart</div></li>
+            <li className="nav-item-right"><div className="nav-item">Sell</div></li>
+            <li className="nav-item-right"><div className="nav-item"><Link to="/signup">Signup</Link></div></li>
+            <li className="nav-item-right"><div className="nav-item"><Link to="/login">Login</Link></div></li>
+          </ul>
+        </nav>
+
         <h3>Sign up</h3>
         <form onSubmit={this.handleSubmit}>
           <input type="text" placeholder="Name" onChange={this.onChangeName} />
