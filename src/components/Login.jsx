@@ -40,7 +40,7 @@ class Login extends Component {
     .then( res => {
 
       console.log('LOGIN SUCCESS', res);
-      axios.defaults.headers.common['Authorization'] = `Bearer ${res.data.token}`;
+      // axios.defaults.headers.common['Authorization'] = `Bearer ${res.data.token}`;
       localStorage.setItem('authToken', res.data.token);
       this.props.history.push('/cart');
 

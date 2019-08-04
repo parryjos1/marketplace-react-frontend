@@ -6,6 +6,9 @@ import Login from './components/Login';
 import Cart from './components/Cart';
 import SearchProduct from './components/SearchProduct'
 import testComp from './components/testComp'
+import Sell from './components/Sell'
+import Example from './components/speechRecog'
+import Product from './components/ProductPage'
 
 
 
@@ -18,6 +21,9 @@ const Routes = (
       <Route exact path="/cart" component={ Cart } />
       <Route exact path="/products" component={ SearchProduct } />
       <Route exact path="/test" component={ testComp } />
+      <Route exact path="/sell" component={ Sell } />
+      <Route exact path="/speech" component={ Example } />
+      <Route exact path="/product/" component={ Product } />
     </div>
   </Router>
 )

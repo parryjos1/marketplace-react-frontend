@@ -1,0 +1,17 @@
+
+
+img.preview {
+  /* height: 500px;
+  width: 400px; */
+  max-height: 60vw;
+  max-width: 80vw;
+  /* position: static; */
+
+}
+
+form.sell-new-item-form {
+  position: relative;
+  z-index: 0;
+  padding-top: 0vw;
+  padding-left: 0vw;
+}

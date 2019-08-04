@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../index.css'
 import TopCategories from './TopCategories'
 import SearchProduct from './SearchProduct'
-
+import '../homepage.css'
 
 class Homepage extends Component {
 
@@ -32,6 +32,12 @@ class Homepage extends Component {
       // color2: 0x05386b,
       // colorMode: "lerp"
     })
+
+    // const authToken = localStorage.getItem('authToken');
+    // if( authToken ){
+    //   axios.defaults.headers.common['Authorization'] = `Bearer ${authToken}`;
+    //   console.log(`authToken is ${authToken}`);
+    // }
   }
 
 
@@ -64,7 +70,7 @@ class Homepage extends Component {
           <ul className="nav-list">
             <li className="nav-item-left"><div className="nav-item">Home</div></li>
             <li className="nav-item-right"><div className="nav-item">Cart</div></li>
-            <li className="nav-item-right"><div className="nav-item">Sell</div></li>
+            <li className="nav-item-right"><div className="nav-item"><Link to="/sell">Sell</Link></div></li>
             <li className="nav-item-right"><div className="nav-item"><Link to="/signup">Signup</Link></div></li>
             <li className="nav-item-right"><div className="nav-item"><Link to="/login">Login</Link></div></li>
           </ul>
@@ -73,7 +79,7 @@ class Homepage extends Component {
         <div className="background-homepage">
           <p id="greeting-homepage">Your One Stop Shop</p>
           <form className="search-form-homepage" onSubmit={this.handleSubmit}>
-            <input type="text" id="search-bar-homepage" className="form-field" placeholder="Books, Electronics, Hawaiian Shirts e.c.t" onChange={ this.onChangeSearch} />
+            <input type="text" id="search-bar-homepage" className="form-field" placeholder="Phil Murray, Skateboard.gifs, Hawaiian Shirts e.c.t" onChange={ this.onChangeSearch} />
 
             <input type="submit" id="submit-homepage" />
 

@@ -89,7 +89,7 @@ class SearchProduct extends Component {
         <nav>
           <ul className="nav-list">
             <li className="nav-item-left"><div className="nav-item"><Link to="/">Home</Link></div></li>
-            <li className="nav-item-right"><div className="nav-item">Cart</div></li>
+            <li className="nav-item-right"><div className="nav-item"><Link to="/cart">Cart</Link></div></li>
             <li className="nav-item-right"><div className="nav-item">Sell</div></li>
             <li className="nav-item-right"><div className="nav-item"><Link to="/signup">Signup</Link></div></li>
             <li className="nav-item-right"><div className="nav-item"><Link to="/login">Login</Link></div></li>
@@ -115,15 +115,18 @@ class SearchProduct extends Component {
                 {
                   this.state.products.length > 0
                   ?
-                  this.state.products.map( p =>
+                  this.state.products.reverse().map( p =>
+                    <Link to={`/product/${p._id}`}>
                       <div className='products'>
                         <div key={p._id} className='listings-left'>
                           {p.name}
-                        </div><div className='listings-right'>
-                          {p.type}
-                          </div>
+                        </div>
+                        <div className='listings-right'>
+                          <img src={p.image} alt="item_image" />
+                        </div>
                         <br></br>
                       </div>
+                    </Link>
                   )
                   :
                  <p>propertyResults is still empty</p>
