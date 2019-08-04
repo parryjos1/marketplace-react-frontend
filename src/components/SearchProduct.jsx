@@ -58,7 +58,9 @@ class SearchProduct extends Component {
     setTimeout(() => {
       // console.log(this.props.location.state.searchText);
      // axios.get('http://localhost:4000/products')
-     axios.post('http://localhost:4000/products', {
+
+     // axios.post('http://localhost:4000/products', {
+     axios.post('https://project3-marketplace-backend.herokuapp.com/products', {
        headers: {searchText: this.state.searchText}
      })
      .then( res => {
