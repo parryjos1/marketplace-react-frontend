@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/marketplace-react-frontend/static/css/main.d902988d.chunk.css",
-    "main.js": "/marketplace-react-frontend/static/js/main.5c81b7b4.chunk.js",
-    "main.js.map": "/marketplace-react-frontend/static/js/main.5c81b7b4.chunk.js.map",
+    "main.css": "/marketplace-react-frontend/static/css/main.7839c96d.chunk.css",
+    "main.js": "/marketplace-react-frontend/static/js/main.3fdd300f.chunk.js",
+    "main.js.map": "/marketplace-react-frontend/static/js/main.3fdd300f.chunk.js.map",
     "runtime~main.js": "/marketplace-react-frontend/static/js/runtime~main.2f0e10e5.js",
     "runtime~main.js.map": "/marketplace-react-frontend/static/js/runtime~main.2f0e10e5.js.map",
-    "static/js/2.f0b712eb.chunk.js": "/marketplace-react-frontend/static/js/2.f0b712eb.chunk.js",
-    "static/js/2.f0b712eb.chunk.js.map": "/marketplace-react-frontend/static/js/2.f0b712eb.chunk.js.map",
+    "static/js/2.912f40eb.chunk.js": "/marketplace-react-frontend/static/js/2.912f40eb.chunk.js",
+    "static/js/2.912f40eb.chunk.js.map": "/marketplace-react-frontend/static/js/2.912f40eb.chunk.js.map",
     "index.html": "/marketplace-react-frontend/index.html",
-    "precache-manifest.69a7bc7d2f0dae873481d77435006fd6.js": "/marketplace-react-frontend/precache-manifest.69a7bc7d2f0dae873481d77435006fd6.js",
+    "precache-manifest.9770836ba84fdda04bef58c1a8515d1d.js": "/marketplace-react-frontend/precache-manifest.9770836ba84fdda04bef58c1a8515d1d.js",
     "service-worker.js": "/marketplace-react-frontend/service-worker.js",
-    "static/css/main.d902988d.chunk.css.map": "/marketplace-react-frontend/static/css/main.d902988d.chunk.css.map"
+    "static/css/main.7839c96d.chunk.css.map": "/marketplace-react-frontend/static/css/main.7839c96d.chunk.css.map"
   }
 }
