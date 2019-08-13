@@ -4,6 +4,8 @@
 
 ** Please WAIT 20 SECONDS after opening ** - Backend hosted on Heroku free tier. Refresh if any errors
 
+Due to 3D graphics only works on Chrome Browser
+
 https://parryjos1.github.io/marketplace-react-frontend/#/
 
 
@@ -63,4 +65,4 @@ https://parryjos1.github.io/marketplace-react-frontend/#/
 * Build in Stripe API
 * Create a transaction history
 * Build out a recommendation engine
-* Build out NSFW feature on Image Recognition 
+* Build out NSFW feature on Image Recognition
