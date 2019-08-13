@@ -63,3 +63,4 @@ https://parryjos1.github.io/marketplace-react-frontend/#/
 * Build in Stripe API
 * Create a transaction history
 * Build out a recommendation engine
+* Build out NSFW feature on Image Recognition 
