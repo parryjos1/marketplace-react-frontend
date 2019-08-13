@@ -44,6 +44,7 @@ https://parryjos1.github.io/marketplace-react-frontend/#/
 * Voice recognition using react-audio-recorder
 * Image recognition using react-cloud-vision-api
 * Experimented with more interesting and active loading using react-lottie
+* Front-page graphics done using VANTA.js
 * Noteable NPM packages: react-audio-recorder, react-cloud-vision-api, react-loading, react-lottie
 * HTML/CSS
 * Deployed to GH pages
