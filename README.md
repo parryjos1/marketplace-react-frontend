@@ -1,69 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## View Live Site
 
-### `npm start`
+** Please WAIT 20 SECONDS after opening ** - Backend hosted on Heroku free tier. Refresh if any errors
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://parryjos1.github.io/marketplace-react-frontend/#/
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+# Marketplace with image and voice recognition
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Links:**
 
-### `npm run build`
+** Please WAIT 20 SECONDS after opening ** - Backend hosted on Heroku free tier. Refresh if any errors
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Website: https://parryjos1.github.io/marketplace-react-frontend/#/
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* Back-end Node.js Express repo: https://github.com/parryjos1/marketplace-node-express-backend
+* Frontend React repo: https://github.com/parryjos1/marketplace-react-frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Goal:**  
+* To build a full MERN (MongoDB, Express, React, Node.js) web app
+* To tinker with image and voice recognition
+* To get two sided marketplace working
 
-### `npm run eject`
+**Main Features**
+* A user can browse items by searching for relevant terms
+* User can add to cart and checkout
+* User can also become a seller and add product to the platform
+* When a user uploads a photo image recognition automatically categorises the image
+* user can control navigation of the site by voice recognition
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Backend Tech used**
+* Node.js v12.4.0
+* Express 4.16.1
+* MongoDB used for Database
+* Passport for user authentication & authorization
+* Noteable NPM packages: bcryptjs, jsonwebtoken, passport-local
+* Deployed to Heroku
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Frontend Tech used**
+* JavaScript
+* React
+* Voice recognition using react-audio-recorder
+* Image recognition using react-cloud-vision-api
+* Experimented with more interesting and active loading using react-lottie
+* Noteable NPM packages: react-audio-recorder, react-cloud-vision-api, react-loading, react-lottie
+* HTML/CSS
+* Deployed to GH pages
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**APIs Used**
+* Google image recognition
+* Cloudinary for photo uploads
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**List of bugs**
+* Backend takes 20 seconds for Heroku to 'wake up'
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# marketplace-react-frontend
+**Future Features**
+* Still so much to finish here in future would like to:
+* Finish all CSS
+* Build out more voice commands
+* Build in Stripe API
+* Create a transaction history
+* Build out a recommendation engine
